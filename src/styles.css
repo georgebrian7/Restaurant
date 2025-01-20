@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+  background-image: url(./images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  
+  }
+  
+  header {
+    background-color:inherit;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+button {
+  margin-right: 20px;
+  background-color: crimson;
+}
+
+#content {
+    background-color: inherit; 
+    padding: 40vw;
+    align-items: center; 
+    justify-content: center; 
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+
